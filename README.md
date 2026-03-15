@@ -1,9 +1,6 @@
 # SecureVault 
-
 A secure file storage and auditing system built with Python.  
 SecureVault encrypts uploaded files, stores metadata securely, and maintains tamper-evident audit logs for forensic analysis.
-
----
 
 ## Features
 
@@ -16,15 +13,11 @@ SecureVault encrypts uploaded files, stores metadata securely, and maintains tam
 -  Encrypted file upload and storage
 -  SHA-256 file integrity verification
 
----
-
 ## System Architecture
 
 User → Flask Web Server → Encryption Engine → MySQL Database  
                                      ↓  
                              Audit Logger → Hash Chain Logs
-
----
 
 ## Technologies Used
 
@@ -34,8 +27,6 @@ User → Flask Web Server → Encryption Engine → MySQL Database
 - Cryptography (AES encryption)
 - bcrypt (password hashing)
 - Git & GitHub
-
----
 
 ## Project Structure
 
